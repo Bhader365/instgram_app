@@ -10,3 +10,9 @@ class MobileScreen extends StatefulWidget {
   @override
   State<MobileScreen> createState() => _MobileScreenState();
 }
+
+class _MobileScreenState extends State<MobileScreen> {
+  @override
+   Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(

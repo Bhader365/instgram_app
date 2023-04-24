@@ -6,3 +6,14 @@ class Webscreen extends StatefulWidget {
   @override
   State<Webscreen> createState() => _WebscreenState();
 }
+
+class _WebscreenState extends State<Webscreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("web screen"),
+      ),
+    );
+  }
+}

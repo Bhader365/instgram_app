@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:instgram_app/responsive/mobile.dart';
 
 class Responsive extends StatefulWidget {
     final mymobilescreen;
     final mywebscreen;
   
-  const Responsive({Key? key, required this.mymobilescreen, this.mywebscreen}) : super(key: key);
+  const Responsive({Key? key, required this.mymobilescreen, this.mywebscreen, required MobileScreen myMobileScreen}) : super(key: key);
 
  @override
   State<Responsive> createState() => _ResponsiveState();

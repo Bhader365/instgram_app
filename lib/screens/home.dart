@@ -165,3 +165,8 @@ class _HomeState extends State<Home> {
                   textAlign: TextAlign.start,
                 )),
           ],
+           ),
+      ),
+    );
+  }
+}

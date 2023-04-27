@@ -84,3 +84,10 @@ class _HomeState extends State<Home> {
               height: MediaQuery.of(context).size.height * 0.25,
               width: double.infinity,
             ),
+             Padding(
+                padding: const EdgeInsets.all(14.0),
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                        Row(
+                        children: [

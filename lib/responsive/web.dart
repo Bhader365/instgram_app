@@ -41,3 +41,7 @@ class _WebScerrenState extends State<WebScerren> {
                 Icons.search,
                 color: page == 0 ? primaryColor : secondaryColor,
               ),
+              onPressed: () {
+                navigateScreen(1);
+              },
+            ),

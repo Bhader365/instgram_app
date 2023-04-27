@@ -27,3 +27,8 @@ class _WebScerrenState extends State<WebScerren> {
     return Scaffold(
       appBar: AppBar(
           actions: [
+             IconButton(
+              icon: Icon(
+                Icons.home,
+                color: page == 0 ? primaryColor : secondaryColor,
+              ),

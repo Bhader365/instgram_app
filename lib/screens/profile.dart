@@ -109,3 +109,6 @@ class _ProfileState extends State<Profile> {
             margin: EdgeInsets.fromLTRB(15, 21, 0, 0),
             width: double.infinity,
             child: Text("beautyful girl & Cute")),
+            SizedBox(
+          height: 15,
+        ),

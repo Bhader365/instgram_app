@@ -35,3 +35,10 @@ class _MobileScerrenState extends State<MobileScerren> {
               currentPage = index;
             });
           },
+           items: [
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.home,
+                  color: currentPage == 0 ? primaryColor : secondaryColor,
+                ),
+                label: ""),

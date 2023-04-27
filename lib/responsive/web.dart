@@ -59,3 +59,8 @@ class _WebScerrenState extends State<WebScerren> {
                 Icons.favorite,
                 color: page == 0 ? primaryColor : secondaryColor,
               ),
+               onPressed: () {
+                navigateScreen(3);
+              },
+            ),
+           

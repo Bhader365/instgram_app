@@ -6,3 +6,10 @@ import 'package:ziadapp/screens/home.dart';
 import '../screens/addpost.dart';
 import '../screens/profile.dart';
 import '../screens/search.dart';
+
+class MobileScerren extends StatefulWidget {
+  const MobileScerren({Key? key}) : super(key: key);
+
+  @override
+  State<MobileScerren> createState() => _MobileScerrenState();
+}

@@ -67,3 +67,9 @@ class _MobileScerrenState extends State<MobileScerren> {
                 ),
                 label: ""),
           ]),
+          body: PageView(
+        onPageChanged: (index) {
+          print("------- $index");
+        },
+        physics: NeverScrollableScrollPhysics(),
+        controller: _pageController,

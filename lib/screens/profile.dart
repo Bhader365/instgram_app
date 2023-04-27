@@ -12,3 +12,9 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     final double widthScreen = MediaQuery.of(context).size.width;
+
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: mobileBackgroundColor,
+        title: Text("el dorado😎"),
+      ),

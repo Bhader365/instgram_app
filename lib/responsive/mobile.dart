@@ -24,4 +24,7 @@ class _MobileScerrenState extends State<MobileScerren> {
     super.dispose();
   }
 
-  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      bottomNavigationBar: CupertinoTabBar(

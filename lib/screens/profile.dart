@@ -183,3 +183,13 @@ class _ProfileState extends State<Profile> {
           color: Colors.white,
           thickness: widthScreen > 600 ? 0.06 : 0.44,
         ),
+         Expanded(
+          child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  childAspectRatio: 3 / 2,
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10),
+              itemCount: 3,
+              itemBuilder: (BuildContext context, int index) {
+                return ClipRRect(

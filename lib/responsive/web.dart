@@ -78,4 +78,19 @@ class _WebScerrenState extends State<WebScerren> {
             "https://unsplash.com/photos/DozxJj2HH8A.jpg",
             color: primaryColor,
             height: 32,
-          )),
+             )),
+    );
+    body:
+    PageView(
+      controller: _pageController,
+      onPageChanged: (index) {},
+      physics: NeverScrollableScrollPhysics(),
+      children: [
+        Home(),
+        Search(),
+        AddPost(),
+        Profile(),
+      ],
+    );
+    }
+}

@@ -17,3 +17,11 @@ class MobileScerren extends StatefulWidget {
 class _MobileScerrenState extends State<MobileScerren> {
   final PageController _pageController = PageController();
   int currentPage = 0;
+
+   @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
+  

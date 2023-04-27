@@ -116,3 +116,6 @@ class _ProfileState extends State<Profile> {
           color: Colors.white,
           thickness: widthScreen > 600 ? 0.06 : 0.44,
         ),
+         SizedBox(
+          height: 15,
+        ),

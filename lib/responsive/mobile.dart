@@ -48,3 +48,9 @@ class _MobileScerrenState extends State<MobileScerren> {
                   color: currentPage == 1 ? primaryColor : secondaryColor,
                 ),
                 label: ""),
+                 BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.add_circle,
+                  color: currentPage == 2 ? primaryColor : secondaryColor,
+                ),
+                label: ""),

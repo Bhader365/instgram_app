@@ -82,3 +82,12 @@ class _ProfileState extends State<Profile> {
              SizedBox(
               height: 5,
             ),
+              Column(
+              children: [
+                Text(
+                  "1000",
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),

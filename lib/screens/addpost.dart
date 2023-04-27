@@ -18,3 +18,5 @@ class _AddPostState extends State<AddPost> {
             onPressed: () {},
             icon: Icon(
               Icons.upload,
+                 size: 55,
+            )),

@@ -91,3 +91,7 @@ class _HomeState extends State<Home> {
                     children: [
                         Row(
                         children: [
+                           IconButton(
+                            onPressed: () {},
+                            icon: Icon(Icons.favorite_border),
+                          ),

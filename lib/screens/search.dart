@@ -18,3 +18,6 @@ class _SearchState extends State<Search> {
           decoration: const InputDecoration(labelText: 'Search for a user...'),
         ),
       ),
+       );
+  }
+}

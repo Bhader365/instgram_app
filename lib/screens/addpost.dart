@@ -20,3 +20,7 @@ class _AddPostState extends State<AddPost> {
               Icons.upload,
                  size: 55,
             )),
+             ),
+    );
+  }
+}

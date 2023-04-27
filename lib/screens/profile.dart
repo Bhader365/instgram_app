@@ -119,3 +119,13 @@ class _ProfileState extends State<Profile> {
          SizedBox(
           height: 15,
         ),
+         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton.icon(
+              onPressed: () {},
+              icon: Icon(
+                Icons.edit,
+                color: Colors.grey,
+                size: 24.0,
+              ),

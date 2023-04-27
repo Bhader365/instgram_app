@@ -152,3 +152,9 @@ class _ProfileState extends State<Profile> {
             SizedBox(
               width: 15,
             ),
+             ElevatedButton.icon(
+              onPressed: () {},
+              icon: Icon(
+                Icons.logout,
+                size: 24.0,
+              ),

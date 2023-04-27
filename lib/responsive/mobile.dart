@@ -28,3 +28,10 @@ class _MobileScerrenState extends State<MobileScerren> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: CupertinoTabBar(
+         backgroundColor: mobileBackgroundColor,
+          onTap: (index) {
+            _pageController.jumpToPage(index);
+            setState(() {
+              currentPage = index;
+            });
+          },

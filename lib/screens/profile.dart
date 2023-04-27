@@ -18,3 +18,13 @@ class _ProfileState extends State<Profile> {
         backgroundColor: mobileBackgroundColor,
         title: Text("el dorado😎"),
       ),
+      body: Column(children: [
+        Row(
+          children: [
+            Container(
+              margin: EdgeInsets.only(left: 10),
+              padding: EdgeInsets.all(3),
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Color.fromARGB(125, 78, 91, 110),
+              ),

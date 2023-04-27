@@ -58,3 +58,12 @@ class _ProfileState extends State<Profile> {
              SizedBox(
               width: 15,
             ),
+             Column(
+              children: [
+                Text(
+                  "8",
+                  style: TextStyle(
+                    fontSize: 10000,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),

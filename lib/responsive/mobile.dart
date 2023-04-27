@@ -73,3 +73,13 @@ class _MobileScerrenState extends State<MobileScerren> {
         },
         physics: NeverScrollableScrollPhysics(),
         controller: _pageController,
+         children: [
+          Home(),
+          AddPost(),
+          Profile(),
+          Search(),
+        ],
+         ),
+    );
+  }
+}

@@ -4,9 +4,12 @@ import 'package:instgram_app/responsive/mobile.dart';
 class Responsive extends StatefulWidget {
     final mymobilescreen;
     final mywebscreen;
+    
+      var myMobileScreen;
   
-  const Responsive({Key? key, required this.mymobilescreen, this.mywebscreen, required MobileScreen myMobileScreen}) : super(key: key);
-
+const Resposive(
+      {Key? key, required this.myMobileScreen, required this.mywebscreen, this.mymobilescreen})
+      : super(key: key);
  @override
   State<Responsive> createState() => _ResponsiveState();
 }

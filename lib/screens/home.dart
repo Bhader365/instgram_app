@@ -45,4 +45,7 @@ class _HomeState extends State<Home> {
             borderRadius: BorderRadius.circular(12)),
         margin: EdgeInsets.symmetric(
             vertical: 11, horizontal: widthScreen > 600 ? widthScreen / 7 : 0),
-        
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(13.0),

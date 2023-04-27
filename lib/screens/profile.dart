@@ -193,3 +193,18 @@ class _ProfileState extends State<Profile> {
               itemCount: 3,
               itemBuilder: (BuildContext context, int index) {
                 return ClipRRect(
+                  borderRadius: BorderRadius.circular(4),
+                  child: Image.network(
+                    "https://unsplash.com/photos/DozxJj2HH8A.jpg",
+                    // height: 333,
+                    // width: 100,
+
+                    fit: BoxFit.cover,
+                  ),
+                );
+              }),
+        ),
+        ]),
+    );
+  }
+}

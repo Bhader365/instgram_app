@@ -49,3 +49,14 @@ class _HomeState extends State<Home> {
           children: [
             Padding(
               padding: const EdgeInsets.all(13.0),
+              child: Row(
+                children: [
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(3),
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Color.fromARGB(125, 78, 91, 110),
+                          ),

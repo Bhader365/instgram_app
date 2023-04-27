@@ -129,3 +129,7 @@ class _ProfileState extends State<Profile> {
                 color: Colors.grey,
                 size: 24.0,
               ),
+              label: Text(
+                "Edit profile",
+                style: TextStyle(fontSize: 17),
+              ),

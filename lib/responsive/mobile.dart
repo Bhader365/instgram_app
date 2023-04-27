@@ -19,7 +19,7 @@ class _MobileScreenState extends State<MobileScreen> {
          title: Text("mobile screen"),
       ),
 
-      bottomNavigationBar: bo,
+      
     );
   }
 }

@@ -133,3 +133,19 @@ class _ProfileState extends State<Profile> {
                 "Edit profile",
                 style: TextStyle(fontSize: 17),
               ),
+              style: ButtonStyle(
+                backgroundColor:
+                    MaterialStateProperty.all(Color.fromARGB(0, 90, 103, 223)),
+                padding: MaterialStateProperty.all(EdgeInsets.symmetric(
+                    vertical: widthScreen > 600 ? 19 : 10, horizontal: 33)),
+                shape: MaterialStateProperty.all(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(7),
+                    side: BorderSide(
+                        color: Color.fromARGB(109, 255, 255, 255),
+                        // width: 1,
+                        style: BorderStyle.solid),
+                  ),
+                ),
+              ),
+            ),

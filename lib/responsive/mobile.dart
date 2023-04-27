@@ -17,6 +17,8 @@ class MobileScerren extends StatefulWidget {
 class _MobileScerrenState extends State<MobileScerren> {
   final PageController _pageController = PageController();
   int currentPage = 0;
+  
+  get secondaryColor => null;
 
    @override
   void dispose() {
@@ -26,6 +28,7 @@ class _MobileScerrenState extends State<MobileScerren> {
 
   @override
   Widget build(BuildContext context) {
+    var mobileBackgroundColor;
     return Scaffold(
       bottomNavigationBar: CupertinoTabBar(
          backgroundColor: mobileBackgroundColor,

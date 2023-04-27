@@ -155,3 +155,13 @@ class _HomeState extends State<Home> {
                     textAlign: TextAlign.start,
                   )),
             ),
+             Container(
+                margin: EdgeInsets.fromLTRB(10, 0, 9, 10),
+                width: double.infinity,
+                child: Text(
+                  "10June 2022",
+                  style: TextStyle(
+                      fontSize: 18, color: Color.fromARGB(214, 157, 157, 165)),
+                  textAlign: TextAlign.start,
+                )),
+          ],

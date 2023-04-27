@@ -12,3 +12,9 @@ class _SearchState extends State<Search> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: mobileBackgroundColor,
+      appBar: AppBar(
+        backgroundColor: mobileBackgroundColor,
+        title: TextFormField(
+          decoration: const InputDecoration(labelText: 'Search for a user...'),
+        ),
+      ),

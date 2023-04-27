@@ -19,3 +19,10 @@ class _HomeState extends State<Home> {
           widthScreen > 600 ? webBackgroundColor : mobileBackgroundColor,
       appBar: widthScreen > 600
           ? null
+          : AppBar(
+              actions: [
+                IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.messenger_outline,
+                    )),

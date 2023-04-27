@@ -13,3 +13,9 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     final double widthScreen = MediaQuery.of(context).size.width;
+
+    return Scaffold(
+      backgroundColor:
+          widthScreen > 600 ? webBackgroundColor : mobileBackgroundColor,
+      appBar: widthScreen > 600
+          ? null

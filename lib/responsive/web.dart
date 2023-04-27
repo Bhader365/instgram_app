@@ -21,3 +21,9 @@ class _WebScerrenState extends State<WebScerren> {
     setState(() {});
     page = indexx;
   }
+
+ @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+          actions: [

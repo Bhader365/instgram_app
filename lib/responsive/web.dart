@@ -50,3 +50,7 @@ class _WebScerrenState extends State<WebScerren> {
                 Icons.add_a_photo,
                 color: page == 0 ? primaryColor : secondaryColor,
               ),
+               onPressed: () {
+                navigateScreen(2);
+              },
+            ),

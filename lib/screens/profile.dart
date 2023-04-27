@@ -94,3 +94,14 @@ class _ProfileState extends State<Profile> {
                 SizedBox(
                   height: 5,
                 ),
+                Text(
+                  "Following",
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey),
+                ),
+              ],
+            ),
+          ],
+        ),

@@ -63,4 +63,9 @@ class _WebScerrenState extends State<WebScerren> {
                 navigateScreen(3);
               },
             ),
+             IconButton(
+              icon: Icon(
+                Icons.person,
+                color: page == 0 ? primaryColor : secondaryColor,
+              ),
            

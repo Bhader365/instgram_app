@@ -158,3 +158,7 @@ class _ProfileState extends State<Profile> {
                 Icons.logout,
                 size: 24.0,
               ),
+               label: Text(
+                "Log out",
+                style: TextStyle(fontSize: 17),
+              ),

@@ -32,3 +32,10 @@ class _HomeState extends State<Home> {
                       Icons.logout,
                     )),
               ],
+               backgroundColor: mobileBackgroundColor,
+              title: SvgPicture.asset(
+                 "https://unsplash.com/photos/DozxJj2HH8A.jpg",
+                color: primaryColor,
+                height: 32,
+              ),
+            ),
